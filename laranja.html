@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<script>
+
+
+
+/* exercicio 1 */
+function pulaLinha() {
+    document.write("<br>");
+}
+
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+function divisaoLaranjas(eu, produto, vizinhos,) {
+    var divisao = produto / (vizinhos + eu)
+
+    mostra("ficam " + divisao + " para cada vizinho e pra mim <br>")
+
+}
+divisaoLaranjas(1, 10, 4)
+produto = 10
+eu = 1
+vizinhos = 4
+/* Divisao laranjas ( 1 eu, 10 produtos{laranjas}, 4 vizinhos) */
+
+
+
+
+/* execicio 2 */
+
+function sobraDasLaranjas(divisao, vizinhos){
+var divisaoSobra = divisao / vizinhos
+mostra("com minha sobra cada um ficou com " + divisaoSobra)
+}
+
+sobraDasLaranjas(2, 4)
+</script>
