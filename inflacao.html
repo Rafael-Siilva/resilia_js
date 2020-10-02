@@ -1,0 +1,30 @@
+<meta charset = "UTF-8">
+
+<script>
+
+function pulaLinha () {
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+}
+
+
+function mediaProdutos(preco1, preco2) {
+    var mediaProdutos = ((preco1 + preco2)/2);
+    return mediaProdutos
+}
+
+var tomate = mediaProdutos(3.30, 4.70);
+var arroz = mediaProdutos(2.99, 3.25);
+var cenoura = mediaProdutos(3.99, 4.14);
+
+mostra(" A média do tomate é " + tomate);
+mostra(" A média do arroz é " + arroz);
+mostra(" A média da cenoura é " + cenoura);
+
+
+</script>
