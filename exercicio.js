@@ -58,7 +58,7 @@ document.write(recebeNumero(400));
     }
 
 
-    // exercício 5
+
 
    
 
